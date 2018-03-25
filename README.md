@@ -10,7 +10,7 @@ You are free to use the source code in any project you need or fork the whole bl
 Installation is like normal laravel applications
 
 1. `composer install`
-2. `cp.env.example .env`
+2. `cp .env.example .env`
 3. `php artisan key:generate`
 4. `php artisan migrate`
 5. `npm install`
