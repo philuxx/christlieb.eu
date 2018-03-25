@@ -32,7 +32,7 @@ class ContactController extends Controller
         ]);
 
         Mail::send(new ContactForm($data));
-
+        flash('Mail successfully sent')->success();
         return response()->json(['message' => 'Contact form successfully send']);
     }
 }
